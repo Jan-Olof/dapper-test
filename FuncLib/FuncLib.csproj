@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="LaYumba.Functional" Version="0.10.0" />
+	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="5.0.9" />
+	  <PackageReference Include="MySql.Data" Version="8.0.26" />
+	  <PackageReference Include="Npgsql" Version="5.0.7" />
+	  <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+	</ItemGroup>
+</Project>
