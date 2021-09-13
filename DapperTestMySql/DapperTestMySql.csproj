@@ -5,16 +5,15 @@
 		<TargetFramework>net5.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
-		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Dapper" Version="2.0.90" />
-	  <PackageReference Include="LaYumba.Functional" Version="0.10.0" />
-	  <PackageReference Include="MySql.Data" Version="8.0.26" />
+		<PackageReference Include="Dapper" Version="2.0.90" />
+		<PackageReference Include="LaYumba.Functional" Version="0.10.0" />
+		<PackageReference Include="MySql.Data" Version="8.0.26" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\FuncLib\FuncLib.csproj" />
+		<ProjectReference Include="..\FuncLib\FuncLib.csproj" />
 	</ItemGroup>
 </Project>

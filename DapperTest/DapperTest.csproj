@@ -5,7 +5,6 @@
 		<TargetFramework>net5.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
-		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -15,6 +14,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\FuncLib\FuncLib.csproj" />
+		<ProjectReference Include="..\FuncLib\FuncLib.csproj" />
 	</ItemGroup>
 </Project>
